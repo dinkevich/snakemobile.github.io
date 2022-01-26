@@ -12,7 +12,6 @@ canvas {
   display: flex;
   margin: 0 auto;
   width: 100%;
-  position: absolute;
 }
 
 body {
@@ -28,7 +27,6 @@ body {
 
 .b2 {
   margin-left: 8px;
-  margin-top: 138px;
 }
 
 .b3 {
@@ -40,12 +38,4 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-}
-
-.button {
-  margin-top: 70px;
-  position: absolute;
-  width: 100%;
-  justify-content: center;
-  opacity: 0%;
 }
