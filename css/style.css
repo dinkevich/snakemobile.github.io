@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+canvas {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+body {
+  background: PaleGoldenrod;
+}
+
+.lower {
+  margin-top: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.b2 {
+  margin-left: 8px;
+}
+
+.b3 {
+  margin-left: 8px;
+}
+
+.upper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.upper img {
+  width: 100%;
+}
+
+.lower img {
+  width: 100%;
+}
