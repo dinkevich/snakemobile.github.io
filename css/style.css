@@ -4,10 +4,15 @@
   border: 0;
 }
 
+.game {
+  position: relative;
+}
+
 canvas {
   display: flex;
   margin: 0 auto;
   width: 100%;
+  position: absolute;
 }
 
 body {
@@ -23,6 +28,7 @@ body {
 
 .b2 {
   margin-left: 8px;
+  margin-top: 138px;
 }
 
 .b3 {
@@ -36,10 +42,10 @@ body {
   margin-top: 10px;
 }
 
-.upper img {
+.button {
+  margin-top: 70px;
+  position: absolute;
   width: 100%;
-}
-
-.lower img {
-  width: 100%;
+  justify-content: center;
+  opacity: 0%;
 }
