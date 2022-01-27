@@ -147,7 +147,7 @@ function drawGame() {
 
     if (snakeX < box || snakeX > box * 17 || snakeY < 3 * box || snakeY > box * 17) {
         clearInterval(game);
-        alert(`Игра окончена. Вы съели ${score} кролоиков!`)
+        alert(`Игра окончена. Вы набрали ${score} очков!`)
         location.reload();
         
     }
