@@ -91,7 +91,7 @@ function eatTail(head, arr) {
     for( let i = 0; i < arr.length; i++) {
         if(head.x == arr[i].x && head.y == arr[i].y) {
             clearInterval(game);
-            alert(`Игра окончена. Вы съели ${score} кролоиков!`)
+            alert(`Игра окончена. Вы набрали ${score} очков!`)
             location.reload();
         }
 
